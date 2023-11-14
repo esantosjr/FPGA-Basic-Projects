@@ -1,0 +1,31 @@
+# gitignore template for Xilinx Vivado Design Suite
+# website: https://www.xilinx.com/support/download.html
+
+# [home]
+*.log
+*.jou
+*pid*.str
+
+# [dir]
+Vivado
+.Xil
+
+/library/*
+
+!/library/common
+!/library/spi
+!/library/axi_dmac
+!/library/axi_ads5294
+!/library/axi_ad9467
+!/library/util_pack
+!/library/xilinx
+!/library/cross_zero_reader
+!/library/dsp
+!/library/Makefile
+!/library/scripts
+!/library/util_axis_fifo
+!/library/interfaces
+!/library/util_cdc
+!/library/util_dacfifo
+!/library/jesd204
+
